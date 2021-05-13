@@ -1,4 +1,5 @@
 import React from 'react';
+import './hero.css';
 
 function Hero(prop){
     const {photo,title,para,date} = prop;
