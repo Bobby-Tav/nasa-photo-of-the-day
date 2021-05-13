@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from "react";
 import Header from './components/header';
 import Hero from './components/hero';
+import Footer from './components/footer';
 import axios from "axios";
 import "./App.css";
 
@@ -36,10 +37,11 @@ function App() {
     <div className="App">
       <Header />
       <Hero title={title} photo={photo} para={para} date={date}  />
-      <p>
+      <Footer />
+      {/* <p>
          Read through the instructions in the README.md file to build your NASA
         app! Have fun <span role="img" aria-label='go!'>🚀</span>!
-      </p>
+      </p> */}
       
     </div>
   );
