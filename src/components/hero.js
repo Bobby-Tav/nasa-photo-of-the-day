@@ -7,7 +7,7 @@ function Hero(prop){
     return(
         <div className='hero-container'>
             <div className ='img-container'>
-                <img src={photo} />
+                <img src={photo} alt={title} />
             </div>
             <div className='info-container'>
                 <h2>{title}</h2>
