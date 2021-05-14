@@ -19,7 +19,7 @@ width:60%;
 
 const StyledImg = styled.img
 `
-width:60%;
+width:100%;
 `
 
 const StyledInfoContainer = styled.div
@@ -37,16 +37,16 @@ function Hero(prop){
 
 
     return(
-        <div className='hero-container'>
-            <div className ='img-container'>
-                <img src={photo} alt={title} />
-            </div>
-            <div className='info-container'>
+        <StyledHero>
+            <StyledImgContainer>
+                <StyledImg src={photo} alt={title} />
+            </StyledImgContainer>
+            <StyledInfoContainer>
                 <h2>{title}</h2>
                 <p>Date: {date}</p>
-                <p> {para}</p>
-            </div>
-        </div>
+                <StyledParagraph> {para}</StyledParagraph>
+            </StyledInfoContainer>
+        </StyledHero>
     )
 }
 export default Hero;

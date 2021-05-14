@@ -4,9 +4,10 @@ import styled from 'styled-components';
 
 const StyledHeader = styled.header  
 `
-background-color:#3b7cff;
+background-color:${props => props.theme.mainColor};
 padding: .5%;
 border-bottom:#3befff solid 4px;
+color: ${props => props.theme.subMainColor};
 `
 
 function Header(){

@@ -4,9 +4,10 @@ import styled from 'styled-components'
 
 const StyledFooter = styled.div 
 `
-background-color:#3b7cff;
+background-color:${props => props.theme.mainColor};
 padding:2%;  
 text-align: right;
+color:${props => props.theme.subMainColor}
 `
 
 export default function Footer(){
