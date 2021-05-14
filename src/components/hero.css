@@ -11,10 +11,10 @@ img{
     padding:3% 0 10% 0;
 }
 .img-container{
-    width: 45%;
+    width: 60%;
 }
 .info-container{
-    width: 45%;
+    width: 30%;
 }
 .info-container p:nth-of-type(2){
     text-align: left;

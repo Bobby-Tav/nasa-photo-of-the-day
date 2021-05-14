@@ -1,10 +1,18 @@
 import React from 'react';
-import './footer.css'
+import styled from 'styled-components'
+// import './footer.css'
+
+const StyledFooter = styled.div 
+`
+background-color:#3b7cff;
+padding:2%;  
+text-align: right;
+`
 
 export default function Footer(){
     return(
-        <footer className='footer-container'>
+        <StyledFooter>
             <p>Robert Taveras</p>
-        </footer>
+        </StyledFooter>
     )
 }
